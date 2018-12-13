@@ -40,16 +40,16 @@
 
     <main role="main">
       <div class="container">
-        <h1 class="text-center pt-3">Welcome to my blog</h1>
+        <h2 class="text-center pt-3">{{ blog.title }}</h2>
         <br />
-        <br />
-        <h2>{{ blog.title }}</h2>
+        <h6 class="text-center">{{ blog.pub_date_pretty }}</h6>
+
         <hr />
 
-        <img class="img-fluid" src="{{ blog.image.url}}" height=250 width=600/>
+        <center><img class="img-fluid" src="{{ blog.image.url}}" height=250 width=600/></center>
         <br />
-        {{ blog.body }}
-
+        <p class="text-center">{{ blog.body }}</p>
+        <br />
       </div>
 
     </main>
