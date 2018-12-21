@@ -1,4 +1,4 @@
 # djangoblog
 my first blog using django
 
-from tutorial https://www.udemy.com/the-ultimate-beginners-guide-to-django-django-2-python-web-dev-website/learn/v4/
+from tutorial https://www.udemy.com/share/1001NsB0ASc1pQRQ==/
